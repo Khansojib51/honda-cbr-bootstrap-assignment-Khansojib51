@@ -1,0 +1,121 @@
+/* Google Font link */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+}
+
+/*--------------------------
+ All CSS Custom Class 
+---------------------------*/
+
+/* Background Classes */
+.main-bg{
+    background-color: #264653;
+}
+.main-bg-50{
+    background-color: #26465391;
+}
+.footer-bg{
+    background-color: #0B0D17;
+}
+
+/* Color Classes */
+.color-offwhite{
+    color: #E0E0E0;
+}
+.color-gray{
+    color: #6C6C6C;
+}
+.color-blue{
+    color: #23A6F0;
+}
+.color-black{
+    color: #0A0826;
+}
+.color-orenge{
+    color: #E76F51;
+}
+
+/* UnderLine Classes */
+.underline{
+    width: 80px;
+    height: 1px;
+    background-color: #E76F51;
+    margin: 10px auto;
+    animation: underline-anim 1s linear infinite;
+
+}
+@keyframes underline-anim {
+    0%{transform: scaleX(.5);}
+    50%{transform: scaleX(1.5);}
+    100%{transform: scaleX(.5);}
+}
+
+/* image Classes */
+.gray-img {
+    filter: grayscale(200%);
+}
+
+/* Button Classes */
+.button-bg{
+    background-color: #E76F51;
+    outline: none;
+    border: none;
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+.button-outline{
+    background-color: transparent;
+    outline: none;
+    border: 1px solid #E76F51;
+    color: #E76F51;
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+}
+
+/* Button Hover Classes */
+.button-bg:hover{
+    background-color: transparent;
+    border: 1px solid #E76F51;
+    color: #E76F51;
+}
+.button-outline:hover{
+    background-color: #E76F51;;
+    border: none;
+    color: #fff;
+}
+
+/* Common CSS */
+.list{
+    list-style: none;
+}
+.fixed-height{
+    height: 135px;
+}
+.fixed-height-2{
+    height: 200px;
+}
+.img-height{
+    max-height: 360px;
+}
+.text-justify{
+    text-align: justify;
+}
+.font-size-10{
+    font-size: .6rem;
+}
+.font-size-14{
+    font-size: .8rem;
+}
+.font-size-16{
+    font-size: 1rem;
+}
